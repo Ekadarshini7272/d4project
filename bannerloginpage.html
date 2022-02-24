@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+	</title>
+	<link href="assets/css/bootstrap.css" rel="stylesheet">
+		
+	<style>
+	.body-log{
+		margin-top: 1rem;
+	}
+	.banner{
+		margin-left: -1rem;
+	}
+	.log-img{
+		height: 43rem;
+		width: 48rem;
+		border-radius: 2rem 0 0rem 2rem;
+	}
+	.log-sec{
+		border: 2px solid red;
+		background-color: #fff;
+		border-radius: 0 2rem 2rem 0;
+	}
+	.logoicon{
+		display: flex;
+		margin-top: 2rem;
+        margin-left: 2rem;
+	}
+	.logico{
+		width: 32px;
+    height: 38px;
+	}
+	h3{
+		font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 5px;
+    color: #1A1A1A;
+	}
+	.text{
+	color: #1A1A1A;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    text-align: left;
+    margin-left: 2rem;
+    margin-top: 9px;
+    text-align: left;
+    }
+    .id{
+         margin-top: 1rem;
+    margin-left: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.00890261px;
+    color: #465685;
+        }
+       .Name{
+      margin-top: 0rem;
+    width: 47%;
+    height: 37px;
+    margin-left: 289px;
+    border: none;
+     border-radius: 2px; 
+    background-color: #F2F2F2;
+  	    }
+      .place-input{
+	   margin-top: -5px;
+       margin-left: -16rem;
+        }
+        .pw{
+          margin-top: 1rem;
+          margin-left: 2rem;
+         font-style: normal;
+         font-weight: 500;
+         font-size: 16px;
+         line-height: 24px;
+         letter-spacing: -0.00890261px;
+         color: #465685;
+        }
+         .valid{
+        	display: flex;
+        	margin-top: 1rem;
+        }
+        .check{
+        	font-size: 13px;
+        	margin-left: 2rem;
+        }
+        .forgot{
+        	margin-left: 74px;
+        	
+        }
+        .p-valid{
+        	font-size: 13px;
+        	text-decoration: underline;
+        	color: #007AFF;
+        }
+        .p-valid:hover{
+        	color: red;
+        }
+        .btn{
+      width: 81%;
+    height: 39px;
+    background-color: #007AFF;
+    color: white;
+    margin-left: 33px;
+    margin-top: 0px;
+    border-radius: 4px;
+}
+.btn:hover{
+	background-color: red;                                        
+}
+.vec{
+	border-bottom: 2px solid #F2F2F2;
+	margin-top: 1rem;
+}
+.btn2{
+     width: 81%;
+    height: 39px;
+    background-color: #333333;
+    color: white;
+    margin-left: 33px;
+    margin-top: 16px;
+    border-radius: 4px;
+    border: none;
+}
+.btn2:hover{
+	background-color: red;
+}
+.soc-icon{
+	width: 22px;
+    height: 20px;
+    margin-left: -109px;	
+	}
+	.btn-text{
+		margin-top: -20px;
+    margin-bottom: 1rem;
+    font-size: 14px;
+    margin-left: 46px;
+	}
+	.text2{
+	text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 0rem;
+    color: #BCBEC0;
+	}
+	.reg{
+		text-decoration: underline;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #007AFF;
+	}
+	.reg:hover{
+		color: red;
+	}
+
+
+	</style>
+	</head>
+	<body>
+		<div class="container body-log"><!-- (main-con) -->
+			<div class="row">
+				<div class="col-md-8 img-sec"><!-- (img) -->
+					<div class="banner">
+					<img class="log-img" src="logimg.png">
+				</div>
+				</div><!-- (img) -->
+				<div class="col-md-4 log-sec"><!-- (log-sec) -->
+					<div class="logoicon">
+						<div><img class="logico"src="banlogo.png"></div>
+						 <div><h3>UI Unicorn</h3></div>
+					</div><!-- (logoicon) -->
+					<p class="text">Nice to see you again</p>
+					      <form>
+							 <label class="id"> Email </label>
+								 <div class="place-input">   
+                                 <input class="Name" type="email" name="firstname" placeholder="username@gmail.com"size="15" required />
+                             </div>
+                             <label class="pw"> Password </label>
+								 <div class="place-input">   
+                                 <input class="Name" type="email" name="firstname" placeholder="password"size="15" required />
+                             </div>
+                             <div class="valid">
+			                    	<div class="check">
+			                    	<input type="checkbox" name="myCheck1" id="myCheck1" value="Remember me"> Remember me
+			                    	</div>
+			                    	<div class="forgot">
+			                    		<p class="p-valid">Forgot Password?</p>
+			                    	</div>
+			                    </div><!-- (valid) -->
+			                    <div>
+                            	<button class="btn">Sign in</button>
+                            </div>
+                            <div class="vec">
+                            </div>
+                            <div>
+                            	<button class="btn2"><img class="soc-icon"src="googleicon.png"><p class="btn-text">or sign with Google</p></button>
+                            </div>
+                         </form>
+                          <p class="text2">Don’t have an account yet? <span class="reg">Sign up now</span></p>
+
+				</div><!-- (log-sec) -->
+			</div><!-- (row) -->
+		</div><!-- (main-con) -->
+		<script src="assets/js/jquery-3.3.1.slim.min.js"></script>
+ <script src="assets/js/bootstrap.js"></script>
+		</body>
+</html>
